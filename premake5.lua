@@ -1,8 +1,8 @@
-workspace "OpenGLProj"
+workspace "Voxel-Engine"
     configurations { "Debug", "Release" }
     platforms { "Win64" }
 
-project "OpenGLProj"
+project "Voxel-Engine"
     kind "ConsoleApp"
     language "C++"
     targetdir "bin/%{cfg.buildcfg}"
